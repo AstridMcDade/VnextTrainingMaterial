@@ -1,0 +1,17 @@
+items:
+- name: Introduction to the Administration Tool
+  uid: at_introduction
+- name: Configuration Menu Options
+  uid: at_ConfigurationMenuOptions
+- name: Users Menu Options
+  uid: at_UsersMenuOption
+- name: Resources
+  uid: at_Resources
+- name: Business Rules
+  uid: at_BusinessRules
+- name: Participants
+  uid: at_Participants
+- name: Access Rights
+  uid: at_AccessRights
+- name: Frequently Asked Questions
+  uid: at_FAQ's

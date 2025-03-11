@@ -1,0 +1,109 @@
+{
+    "build": {
+        "content": [
+            {
+                "files": [
+                    "toc.yml",
+                    "index.md"
+                ]
+            },
+            {
+                "files": [
+                    "index/**.md",
+                    "index/**/toc.yml",
+                    "toc.yml",
+                    "*.md"
+                ]
+            },
+            {
+                "files": [
+                    "webNavigator/**.md",
+                    "webNavigator/**/toc.yml",
+                    "toc.yml",
+                    "*.md"
+                ]
+            },
+            {
+                "files": [
+                    "adminTool/**.md",
+                    "adminTool/**/toc.yml",
+                    "toc.yml",
+                    "*.md"
+                ]
+            },
+            {
+                "files": [
+                    "training/**.md",
+                    "training/**/toc.yml",
+                    "toc.yml",
+                    "*.md"
+                ]
+            },
+            {
+                "files": [
+                    "objects/**.md",
+                    "objects/**/toc.yml",
+                    "toc.yml",
+                    "*.md"
+                ]
+            }
+        ],
+        "resource": [
+            {
+                "files": [
+                    "images/**",
+                    "**/*.png",
+                    "**/*.jpg",
+                    "**/*.jpeg",
+                    "**/*.gif"
+                ]
+            }
+        ],
+        "overwrite": [
+            {
+                "exclude": [
+                    "obj/**",
+                    ".vscode"
+                ]
+            }
+        ],
+        "globalMetadata": {
+            "_appTitle": "Processware Developer Guide",
+            "_appFooter": "Copyright � FlowCentric (PTY) Ltd. - Processware Developer Guide",
+            "_appLogoPath": "media/companyLogo_RGB.png",
+            "_appLightLogoPath": "media/companyLogo_RGB.png",
+            "_appDarkLogoPath": "media/companyLogo_White.png",
+            "_appFaviconPath": "media/favicon.ico",
+            "_enableSearch": true,
+            "_enableNewTab": true,
+            "_disableContribution": false,
+            "_siteVersion": "1.0.0"
+        },
+        "dest": "_site",
+        "globalMetadataFiles": [
+        ],
+        "fileMetadataFiles": [
+        ],
+        "template": [
+            "default",
+            "templates/modern"
+        ],
+        "postProcessors": [
+            "ExtractSearchIndex"
+        ],
+        "markdownEngineName": "markdig",
+        "noLangKeyword": false,
+        "keepFileLink": false,
+        "cleanupCacheHistory": false,
+        "disableGitFeatures": false
+    },
+    "markdownEngineProperties": {
+        "markdigExtensions": [
+            "Abbreviations",
+            "Footnotes",
+            "Tables",
+            "Helpers",
+            "Parsers"
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+items:
+- name: Web Navigator
+  href: webNavigator/
+- name: Admin Tool
+  href: adminTool/
+- name: Objects
+  href: objects/
+- name: Training
+  href: training/
